@@ -6,13 +6,13 @@
     "target": "arcade",
     "dependencies": {},
     "files": [
-        "screen.cpp",
+        "screen1.cpp",
         "extension.ts"
     ],
     "config": {
         "build": {
             "cpp": {
-                "sourceDirs": ["screen.cpp"]
+                "sourceDirs": ["screen1.cpp"]
             }
         }
     }
