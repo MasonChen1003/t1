@@ -1,0 +1,12 @@
+{
+    "name": "tt1",
+    "displayName": "My Extension",
+    "description": "Description of my extension",
+    "version": "0.0.1",
+    "target": "arcade",
+    "dependencies": {},
+    "files": [
+        "extension.ts",
+        "screen.cpp"
+    ]
+}
