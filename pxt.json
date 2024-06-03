@@ -11,7 +11,7 @@
     "config": {
         "build": {
             "cpp": {
-                "sourceDirs": [""]
+                "sourceDirs": ["screen.cpp"]
             }
         }
     }
