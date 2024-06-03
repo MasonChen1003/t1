@@ -8,10 +8,11 @@
     "files": [
         "extension.ts"
     ],
- "config": {
-    "build": {
-      "cpp": {
-        "sourceDirs": [""]
-      }
+    "config": {
+        "build": {
+            "cpp": {
+                "sourceDirs": [""]
+            }
+        }
     }
 }
