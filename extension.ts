@@ -8,6 +8,6 @@ namespace MyExtension {
     //% offsetX.min=0 offsetX.max=255 offsetY.min=0 offsetY.max=255
     //% group="Screen"
     export function initializeScreen(offsetX: number, offsetY: number): void {
-        const screen = _screen_internal.createScreen(offsetX, offsetY);
+        let offss = 1; 
     }
 }
