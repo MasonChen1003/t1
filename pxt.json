@@ -6,6 +6,7 @@
     "target": "arcade",
     "dependencies": {},
     "files": [
+        "screen.cpp",
         "extension.ts"
     ],
     "config": {
