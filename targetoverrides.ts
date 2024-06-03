@@ -8,7 +8,7 @@ namespace config {
     // 顯示器相關配置
     export const DISPLAY_WIDTH = 160;
     export const DISPLAY_HEIGHT = 128;
-    export const DISPLAY_CFG0 = 0x40; // 顯示配置
+    export const DISPLAY_CFG0 = 0x10000040; // 顯示配置
     export const DISPLAY_CFG1 = 0x10000603;
     export const DISPLAY_CFG2 = 0x0;
 
