@@ -7,7 +7,12 @@
     "dependencies": {},
     "files": [
         "extension.ts",
-        "screen.cpp",
-        "targetoverrides.ts"
-    ]
+        "screen.cpp"
+    ],
+ "config": {
+    "build": {
+      "cpp": {
+        "sourceDirs": ["screen.cpp"]
+      }
+    }
 }
