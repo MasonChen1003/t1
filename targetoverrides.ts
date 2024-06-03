@@ -42,3 +42,4 @@ function initializeDisplay() {
 
 // 初始化顯示
 initializeDisplay();
+console.log("Hello from targetoverrides.ts!");
