@@ -7,8 +7,7 @@
     "dependencies": {},
     "files": [
         "screen1.cpp",
-        "extension.ts",
-        "targetoverrides.ts"
+        "extension.ts"
     ],
     "config": {
         "build": {
