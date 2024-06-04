@@ -7,6 +7,7 @@
     "dependencies": {},
     "files": [
         "screen1.cpp",
+        "pxt.d.ts", 
         "extension.ts"
     ],
     "config": {
