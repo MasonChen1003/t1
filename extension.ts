@@ -1,13 +1,16 @@
 namespace MyExtension {
-    /**
-     * Initializes the screen with the given offset values.
-     * @param offsetX The offset on the X-axis.
-     * @param offsetY The offset on the Y-axis.
-     */
-    //% block="initialize screen with offset X $offsetX Y $offsetY"
-    //% offsetX.min=0 offsetX.max=255 offsetY.min=0 offsetY.max=255
-    //% group="Screen"
-    export function initializeScreen(offsetX: number, offsetY: number): void {
-        let offss = 1; 
-    }
+// 在 custom.ts 中新增以下内容
+
+//% blockId=display_set_offx block="set offX to %x"
+//% weight=100
+export function setOffX(x: number): void {
+    pxtrun.setOffX(x);
+}
+
+//% blockId=display_set_offy block="set offY to %y"
+//% weight=100
+export function setOffY(y: number): void {
+    pxtrun.setOffY(y);
+}
+
 }
