@@ -1,9 +1,15 @@
-// 调用 C++ 中的 setOffX 函数
-control.runInParallel(() => {
-    setOffX(x);
-});
+// 声明 C++ 中定义的函数
+declare function setOffX(x: number): void;
+declare function setOffY(y: number): void;
 
-// 调用 C++ 中的 setOffY 函数
-control.runInParallel(() => {
+//% blockId=display_set_offx block="set offX to %x"
+//% weight=100
+export function setOffX(x: number): void {
+    setOffX(x);
+}
+
+//% blockId=display_set_offy block="set offY to %y"
+//% weight=100
+export function setOffY(y: number): void {
     setOffY(y);
-});
+}
