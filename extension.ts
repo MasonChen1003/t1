@@ -1,15 +1,20 @@
-// 声明 C++ 中定义的函数
-declare function setOffX(x: number): void;
-declare function setOffY(y: number): void;
+namespace myDisplay {
+    // 声明 C++ 中定义的函数
+    //% shim=pxt::setOffX
+    declare function setOffX(x: number): void;
+    //% shim=pxt::setOffY
+    declare function setOffY(y: number): void;
 
-//% blockId=display_set_offx block="set offX to %x"
-//% weight=100
-export function setOffX(x: number): void {
-    setOffX(x);
-}
+    // 使用这些函数
+    //% blockId=display_set_offx block="set offX to %x"
+    //% weight=100
+    export function setDisplayOffX(x: number): void {
+        setOffX(x);
+    }
 
-//% blockId=display_set_offy block="set offY to %y"
-//% weight=100
-export function setOffY(y: number): void {
-    setOffY(y);
+    //% blockId=display_set_offy block="set offY to %y"
+    //% weight=100
+    export function setDisplayOffY(y: number): void {
+        setOffY(y);
+    }
 }
