@@ -1,3 +1,5 @@
+#include "pxt.h"
+
 namespace pxt {
     // 声明接口函数
     void setOffX(uint8_t x);
