@@ -5,7 +5,7 @@ namespace MyExtension {
 export function setOffX(x: number): void {
     // 调用 C++ 中的 setOffX 函数
     control.runInParallel(() => {
-        pxsim.pxtrt.setOffX(x);
+        pxt.setOffX(x);
     });
 }
 
@@ -14,7 +14,7 @@ export function setOffX(x: number): void {
 export function setOffY(y: number): void {
     // 调用 C++ 中的 setOffY 函数
     control.runInParallel(() => {
-        pxsim.pxtrt.setOffY(y);
+        pxt.setOffY(y);
     });
 }
 
