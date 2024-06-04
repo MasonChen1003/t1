@@ -1,20 +1,19 @@
-namespace myDisplay {
-    // 声明 C++ 中定义的函数
-    //% shim=pxt::setOffX
-    declare function setOffX(x: number): void;
-    //% shim=pxt::setOffY
-    declare function setOffY(y: number): void;
-
-    // 使用这些函数
-    //% blockId=display_set_offx block="set offX to %x"
-    //% weight=100
-    export function setDisplayOffX(x: number): void {
-        setOffX(x);
-    }
-
-    //% blockId=display_set_offy block="set offY to %y"
-    //% weight=100
-    export function setDisplayOffY(y: number): void {
-        setOffY(y);
+{
+    "name": "tt1",
+    "displayName": "My Extension",
+    "description": "Description of my extension",
+    "version": "0.0.1",
+    "target": "arcade",
+    "dependencies": {},
+    "files": [
+        "screen1.cpp",
+        "extension.ts"
+    ],
+    "config": {
+        "build": {
+            "cpp": {
+                "sourceDirs": ["."]
+            }
+        }
     }
 }
